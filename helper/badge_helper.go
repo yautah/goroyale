@@ -1,8 +1,6 @@
 package helper
 
-import (
-	"fmt"
-)
+import ()
 
 const (
 	MinBadgeId = 16000000
@@ -10,12 +8,6 @@ const (
 )
 
 var BadgesMap map[int]string = make(map[int]string)
-
-func init() {
-	for i := MinBadgeId; i <= MaxBadgeId; i++ {
-		BadgesMap[i] = fmt.Sprintf("%s/badges/%d.png", Endpoint, i)
-	}
-}
 
 func GetBadgeById(id int) string {
 	return BadgesMap[id]

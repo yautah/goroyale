@@ -24,14 +24,24 @@ type Player struct {
 	TotalDonations        int    `json:"totalDonations"`
 	WarDayWins            int    `json:"warDayWins"`
 	ClanCardsCollected    int    `json:"clanCardsCollected"`
+	StarPoints            int    `json:"starPoints"`
 
 	Clan                 ClanBase         `json:"clan"`
 	Arena                Arena            `json:"arena"`
 	LeagueStatistics     LeagueStatistics `json:"leagueStatistics"`
+	Badges               []Badge          `json:"badges"`
 	Achievements         []Achievement    `json:"-"`
 	Cards                []Card           `json:"cards"`
 	CurrentDeck          []Card           `json:"currentDeck"`
 	CurrentFavouriteCard Card             `json:"currentFavouriteCard"`
+}
+
+type Badge struct {
+	Name     string `json:"name"`
+	Level    int    `json:"level"`
+	MaxLevel int    `json:"maxLevel"`
+	Progress int    `json:"progress"`
+	Target   int    `json:"target"`
 }
 
 type LeagueStatistics struct {

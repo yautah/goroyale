@@ -1,0 +1,969 @@
+[
+  {
+    "key": "knight",
+    "name": "骑士",
+    "elixir": 3,
+    "type": "Troop",
+    "rarity": "Common",
+    "arena": 0,
+    "description":
+      "一位强悍的近战勇士。他是野蛮人的远亲，但是更英俊、更有教养。传言说，他仅因为那拉风的胡须就受封骑士了。",
+    "id": 26000000
+  },
+  {
+    "key": "archers",
+    "name": "弓箭手",
+    "elixir": 3,
+    "type": "Troop",
+    "rarity": "Common",
+    "arena": 0,
+    "description": "一对轻装上阵的姐妹花。她们擅长远程攻击，不会放过任何陆空目标，不过可别奢望她们会分享美发秘诀！",
+    "id": 26000001
+  },
+  {
+    "key": "goblins",
+    "name": "哥布林",
+    "elixir": 2,
+    "type": "Troop",
+    "rarity": "Common",
+    "arena": 1,
+    "description": "三个近战攻击的小绿人，没有盔甲护身。他们身型矮小，行动迅速，且贪得无厌。",
+    "id": 26000002
+  },
+  {
+    "key": "giant",
+    "name": "巨人",
+    "elixir": 5,
+    "type": "Troop",
+    "rarity": "Rare",
+    "arena": 0,
+    "description": "巨人行动缓慢，但是耐击打。他专门攻击建筑，是名副其实的人肉攻城器！",
+    "id": 26000003
+  },
+  {
+    "key": "pekka",
+    "name": "皮卡超人",
+    "elixir": 7,
+    "type": "Troop",
+    "rarity": "Epic",
+    "arena": 4,
+    "description": "身披重甲的近战勇士，虽然她摇摆着身体，动作有点缓慢，但攻击力极高。",
+    "id": 26000004
+  },
+  {
+    "key": "minions",
+    "name": "亡灵",
+    "elixir": 3,
+    "type": "Troop",
+    "rarity": "Common",
+    "arena": 0,
+    "description": "三个行动迅速、无护甲保护的飞行进攻战士。红蔷薇，蓝部队，亡灵飞，敌阵摧！",
+    "id": 26000005
+  },
+  {
+    "key": "balloon",
+    "name": "气球兵",
+    "elixir": 5,
+    "type": "Troop",
+    "rarity": "Epic",
+    "arena": 6,
+    "description":
+      "这些气球虽然非常漂亮，但您绝不想看到他们成队出现在您的领空。他们会投掷强大的炸弹，被击落后将爆炸，造成范围伤害。",
+    "id": 26000006
+  },
+  {
+    "key": "witch",
+    "name": "女巫",
+    "elixir": 5,
+    "type": "Troop",
+    "rarity": "Epic",
+    "arena": 2,
+    "description": "不仅能召唤骷髅军队，还可以发射魔法光束，只可惜那对粉光电眼无法发射激光。被消灭时会召唤3个骷髅兵。",
+    "id": 26000007
+  },
+  {
+    "key": "barbarians",
+    "name": "野蛮人",
+    "elixir": 5,
+    "type": "Troop",
+    "rarity": "Common",
+    "arena": 3,
+    "description": "这些近战战士胡子邋遢，脾气更是暴躁",
+    "id": 26000008
+  },
+  {
+    "key": "golem",
+    "name": "戈仑石人",
+    "elixir": 8,
+    "type": "Troop",
+    "rarity": "Epic",
+    "arena": 3,
+    "description": "缓慢但强韧的戈仑石人只会攻击建筑。被摧毁后，他们会分裂成两个小戈仑石人，同时造成范围伤害！",
+    "id": 26000009
+  },
+  {
+    "key": "skeletons",
+    "name": "骷髅兵",
+    "elixir": 1,
+    "type": "Troop",
+    "rarity": "Common",
+    "arena": 2,
+    "description": "三个快速但脆弱的近战单位。用这些骷髅来围攻敌军吧！",
+    "id": 26000010
+  },
+  {
+    "key": "valkyrie",
+    "name": "瓦基丽武神",
+    "elixir": 4,
+    "type": "Troop",
+    "rarity": "Rare",
+    "arena": 2,
+    "description":
+      "她是强悍的近战战士，能对敌军造成范围伤害。即使敌军成群结队她都不放在眼里，因为只需几个旋风斩她就能将敌军全部粉碎。",
+    "id": 26000011
+  },
+  {
+    "key": "skeleton-army",
+    "name": "骷髅军团",
+    "elixir": 3,
+    "type": "Troop",
+    "rarity": "Epic",
+    "arena": 0,
+    "description": "召唤一支骷髅大军。\\n来见见拉里和他的好哥们\\n哈里、格里、特里和玛丽一家子吧。",
+    "id": 26000012
+  },
+  {
+    "key": "bomber",
+    "name": "炸弹兵",
+    "elixir": 3,
+    "type": "Troop",
+    "rarity": "Common",
+    "arena": 2,
+    "description": "别看这骷髅又小又脆弱，但他投掷的炸弹可会造成范围伤害，能消灭一群敌军。",
+    "id": 26000013
+  },
+  {
+    "key": "musketeer",
+    "name": "火枪手",
+    "elixir": 4,
+    "type": "Troop",
+    "rarity": "Rare",
+    "arena": 0,
+    "description": "别被火枪手优雅的外表迷惑了，她一拿起武器可是毫不留情！",
+    "id": 26000014
+  },
+  {
+    "key": "baby-dragon",
+    "name": "飞龙宝宝",
+    "elixir": 4,
+    "type": "Troop",
+    "rarity": "Epic",
+    "arena": 0,
+    "description": "飞龙宝宝从空中喷出火球，可造成范围伤害。可爱又贪吃的它已经准备好迎接烤肉大餐啦！",
+    "id": 26000015
+  },
+  {
+    "key": "prince",
+    "name": "王子",
+    "elixir": 5,
+    "type": "Troop",
+    "rarity": "Epic",
+    "arena": 0,
+    "description":
+      "不要因为王子骑的是匹小马就小瞧他哦。一旦王子开始往前冲，你就知道他有多厉害了。王子冲锋时会造成双倍伤害。",
+    "id": 26000016
+  },
+  {
+    "key": "wizard",
+    "name": "法师",
+    "elixir": 5,
+    "type": "Troop",
+    "rarity": "Rare",
+    "arena": 5,
+    "description": "他是竞技场史上最酷炫的男人！他击退对手靠的就是帅气！哦，对了，还有火球术。",
+    "id": 26000017
+  },
+  {
+    "key": "mini-pekka",
+    "name": "迷你皮卡",
+    "elixir": 4,
+    "type": "Troop",
+    "rarity": "Rare",
+    "arena": 0,
+    "description": "竞技场可不是追着蝴蝶跑的地方，迷你皮卡不是来消遣的而是来消灭一切的！",
+    "id": 26000018
+  },
+  {
+    "key": "spear-goblins",
+    "name": "哥布林投矛手",
+    "elixir": 2,
+    "type": "Troop",
+    "rarity": "Common",
+    "arena": 1,
+    "description": "三个无护甲保护的远程进攻战士。到底是谁教会了他们扔长矛！？是谁想出的这个馊主意？！",
+    "id": 26000019
+  },
+  {
+    "key": "giant-skeleton",
+    "name": "骷髅巨人",
+    "elixir": 6,
+    "type": "Troop",
+    "rarity": "Epic",
+    "arena": 2,
+    "description": "骷髅的个头越大，携带的炸弹威力就越强。骷髅巨人携带的炸弹会在他阵亡后爆炸。",
+    "id": 26000020
+  },
+  {
+    "key": "hog-rider",
+    "name": "野猪骑士",
+    "elixir": 4,
+    "type": "Troop",
+    "rarity": "Rare",
+    "arena": 1,
+    "description":
+      "行动迅速的近战部队，以建筑作为攻击目标，可以跳过河流。\\n他会追随着\"野猪骑士\"的召唤声一路冲向竞技场。",
+    "id": 26000021
+  },
+  {
+    "key": "minion-horde",
+    "name": "亡灵大军",
+    "elixir": 5,
+    "type": "Troop",
+    "rarity": "Common",
+    "arena": 4,
+    "description": "六个行动迅速、无护甲保护的飞行进攻战士。三人为伍，六人成军！",
+    "id": 26000022
+  },
+  {
+    "key": "ice-wizard",
+    "name": "寒冰法师",
+    "elixir": 3,
+    "type": "Troop",
+    "rarity": "Legendary",
+    "arena": 8,
+    "description":
+      "这位超酷的法师会向敌人发射冰晶，降低他们的移动速度和攻击速度。虽然寒冰法师外表冷酷，但他那迷人的胡子透露出的热情就已经足够让他在皇室TV人气大旺了。",
+    "id": 26000023
+  },
+  {
+    "key": "royal-giant",
+    "name": "皇家巨人",
+    "elixir": 6,
+    "type": "Troop",
+    "rarity": "Common",
+    "arena": 7,
+    "description": "用手中的巨型加农炮摧毁敌方建筑是皇家巨人的职责；打理好自己杂乱的金色胡须则是皇家巨人的爱好。",
+    "id": 26000024
+  },
+  {
+    "key": "guards",
+    "name": "骷髅守卫",
+    "elixir": 3,
+    "type": "Troop",
+    "rarity": "Epic",
+    "arena": 7,
+    "description": "骷髅三兄弟，手持盾牌，冷酷无情。即使被打掉了盾牌，他们也会战斗到底。",
+    "id": 26000025
+  },
+  {
+    "key": "princess",
+    "name": "公主",
+    "elixir": 3,
+    "type": "Troop",
+    "rarity": "Legendary",
+    "arena": 7,
+    "description": "这位迷人的公主会从远距离发射火焰箭。如果你看到她时感到很温暖，当心了，这可能是因为你身上着火了。",
+    "id": 26000026
+  },
+  {
+    "key": "dark-prince",
+    "name": "黑暗王子",
+    "elixir": 4,
+    "type": "Troop",
+    "rarity": "Epic",
+    "arena": 7,
+    "description": "黑暗王子可以造成范围伤害，他用狼牙棒为自己代言 — 因为当他说话时，听起来就像头上罩了个水桶。",
+    "id": 26000027
+  },
+  {
+    "key": "three-musketeers",
+    "name": "三个火枪手",
+    "elixir": 9,
+    "type": "Troop",
+    "rarity": "Rare",
+    "arena": 7,
+    "description": "三位强大、独立的女神枪手，为了正义与荣耀而战。对她们不敬可不仅仅是个小错，事儿大着呢。",
+    "id": 26000028
+  },
+  {
+    "key": "lava-hound",
+    "name": "熔岩猎犬",
+    "elixir": 7,
+    "type": "Troop",
+    "rarity": "Legendary",
+    "arena": 4,
+    "description":
+      "熔岩猎犬是一只专门攻击建筑物的飞行巨兽。熔岩幼犬的个头虽没那么伟岸，但它们脾气暴躁，会攻击任何单位。",
+    "id": 26000029
+  },
+  {
+    "key": "ice-spirit",
+    "name": "冰雪精灵",
+    "elixir": 1,
+    "type": "Troop",
+    "rarity": "Common",
+    "arena": 8,
+    "description": "一个活泼可爱的冰雪精灵，它可以冻住一群敌军。冻住，不许走！",
+    "id": 26000030
+  },
+  {
+    "key": "fire-spirits",
+    "name": "烈焰精灵",
+    "elixir": 2,
+    "type": "Troop",
+    "rarity": "Common",
+    "arena": 5,
+    "description":
+      "这三个烈焰精灵抱着必死的决心，扑向敌方给予他们一个热烈的\"拥抱\"，如果不是因为它们整天想对人开火，它们其实还挺可爱的。",
+    "id": 26000031
+  },
+  {
+    "key": "miner",
+    "name": "掘地矿工",
+    "elixir": 3,
+    "type": "Troop",
+    "rarity": "Legendary",
+    "arena": 4,
+    "description": "掘地矿工可以掘地三尺并在竞技场中的任何位置破土而出。这可不是什么魔法，他靠的是他的铲子。",
+    "id": 26000032
+  },
+  {
+    "key": "sparky",
+    "name": "电磁炮",
+    "elixir": 6,
+    "type": "Troop",
+    "rarity": "Legendary",
+    "arena": 11,
+    "description": "电磁炮会慢慢充能，然后可造成巨量范围伤害。她的字典里可没有\"伤害过量\"这个词。",
+    "id": 26000033
+  },
+  {
+    "key": "bowler",
+    "name": "巨石投手",
+    "elixir": 5,
+    "type": "Troop",
+    "rarity": "Epic",
+    "arena": 8,
+    "description":
+      "这个蓝皮大个子一辈子只做两件简单的事：豪饮暗黑重油、投掷巨型岩石。他扔出的巨石在击中目标后，仍会向前滚动对路径上的目标造成伤害。",
+    "id": 26000034
+  },
+  {
+    "key": "lumberjack",
+    "name": "狂暴樵夫",
+    "elixir": 4,
+    "type": "Troop",
+    "rarity": "Legendary",
+    "arena": 8,
+    "description": "他白天砍树，晚上追踪复仇滚木。当他倒下时，他扛着的那瓶狂暴药水便会洒得到处都是。",
+    "id": 26000035
+  },
+  {
+    "key": "battle-ram",
+    "name": "野蛮人攻城槌",
+    "elixir": 4,
+    "type": "Troop",
+    "rarity": "Rare",
+    "arena": 3,
+    "description":
+      "两个野蛮人托举着巨大的攻城槌向最近的建筑发起冲锋。攻城槌撞击建筑时会对建筑造成显著伤害。攻城槌掉落后，野蛮人将拿着剑继续奋力拼杀。",
+    "id": 26000036
+  },
+  {
+    "key": "inferno-dragon",
+    "name": "地狱飞龙",
+    "elixir": 4,
+    "type": "Troop",
+    "rarity": "Legendary",
+    "arena": 6,
+    "description": "地狱飞龙对单个目标喷射火焰射线，造成的伤害会随着时间递增。飞行有危险，记得戴头盔。",
+    "id": 26000037
+  },
+  {
+    "key": "ice-golem",
+    "name": "戈仑冰人",
+    "elixir": 2,
+    "type": "Troop",
+    "rarity": "Rare",
+    "arena": 8,
+    "description":
+      "强悍的戈仑冰人只会攻击建筑，被摧毁后会爆炸并减缓周围敌军的速度。他全身上下都是冰做的呢......真的是这样吗？千真万确。",
+    "id": 26000038
+  },
+  {
+    "key": "mega-minion",
+    "name": "重甲亡灵",
+    "elixir": 3,
+    "type": "Troop",
+    "rarity": "Rare",
+    "arena": 4,
+    "description": "翱翔天际，重装来袭，其势若此，岂无敌手乎？答曰：纸杯蛋糕可解此围也！",
+    "id": 26000039
+  },
+  {
+    "key": "dart-goblin",
+    "name": "吹箭哥布林",
+    "elixir": 3,
+    "type": "Troop",
+    "rarity": "Rare",
+    "arena": 9,
+    "description": "他脚下生风，射程够远，还嚼着淘淘泡泡糖。满嘴泡泡糖的他居然还能吹出飞箭？这可多亏了他学了几年笛子。",
+    "id": 26000040
+  },
+  {
+    "key": "goblin-gang",
+    "name": "哥布林团伙",
+    "elixir": 3,
+    "type": "Troop",
+    "rarity": "Common",
+    "arena": 9,
+    "description": "哥布林五人行：三人持匕首，两人执长矛，圣水花费少，哥布林超值包！",
+    "id": 26000041
+  },
+  {
+    "key": "electro-wizard",
+    "name": "闪电法师",
+    "elixir": 4,
+    "type": "Troop",
+    "rarity": "Legendary",
+    "arena": 11,
+    "description": "天空一声轰隆巨响，闪电法师酷炫登场。登场眩晕附近敌军，双手放电英姿飒爽！真是个爱显摆的家伙。",
+    "id": 26000042
+  },
+  {
+    "key": "elite-barbarians",
+    "name": "野蛮人精锐",
+    "elixir": 6,
+    "type": "Troop",
+    "rarity": "Common",
+    "arena": 10,
+    "description": "两个加强版野蛮人。他们跟普通野蛮人有些相似，不过更凶、更强、更快、更壮。",
+    "id": 26000043
+  },
+  {
+    "key": "hunter",
+    "name": "猎人",
+    "elixir": 4,
+    "type": "Troop",
+    "rarity": "Epic",
+    "arena": 1,
+    "description":
+      "他能对近距离目标造成大量伤害，但对付远距离目标时效果略逊一筹。他的射击精度不高，不过他那标志性的浓密眉毛却给他加分不少。命中不够，造型来凑！",
+    "id": 26000044
+  },
+  {
+    "key": "executioner",
+    "name": "飞斧屠夫",
+    "elixir": 5,
+    "type": "Troop",
+    "rarity": "Epic",
+    "arena": 12,
+    "description":
+      "他扔出的斧头像一把回旋镖，斧头在飞出和飞回时都会对其路径上的敌军造成伤害。斧头这么使还能保住双臂，真是奇迹。",
+    "id": 26000045
+  },
+  {
+    "key": "bandit",
+    "name": "幻影刺客",
+    "elixir": 3,
+    "type": "Troop",
+    "rarity": "Legendary",
+    "arena": 9,
+    "description":
+      "幻影刺客可以向目标发动突袭，造成双倍伤害！幻影刺客在突袭过程中不会受到攻击。面具掩饰了她神秘的身份，也给她增添了一分高冷！",
+    "id": 26000046
+  },
+  {
+    "key": "royal-recruits",
+    "name": "皇家卫队",
+    "elixir": 7,
+    "type": "Troop",
+    "rarity": "Common",
+    "arena": 7,
+    "description": "部署皇家卫队 — 一排头戴木桶、手持矛和盾的皇家新兵。他们梦想着有一天能头戴铁桶，身骑小马。",
+    "id": 26000047
+  },
+  {
+    "key": "night-witch",
+    "name": "暗夜女巫",
+    "elixir": 4,
+    "type": "Troop",
+    "rarity": "Legendary",
+    "arena": 5,
+    "description":
+      "她能召唤蝙蝠，只要她一声号令，这些蝙蝠便会为她赴汤蹈火。即便是在倒下时，她也能召唤出蝙蝠。如果你靠得太近，她可不介意用手中那造型恐怖的法杖教训教训你。",
+    "id": 26000048
+  },
+  {
+    "key": "bats",
+    "name": "蝙蝠",
+    "elixir": 2,
+    "type": "Troop",
+    "rarity": "Common",
+    "arena": 5,
+    "description": "一群身披紫衣的空中小精灵，看着挺可爱，但小小的身体聚集在一起却能产生大大的破坏力！",
+    "id": 26000049
+  },
+  {
+    "key": "royal-ghost",
+    "name": "皇家幽灵",
+    "elixir": 3,
+    "type": "Troop",
+    "rarity": "Legendary",
+    "arena": 12,
+    "description":
+      "一个在竞技场中游荡的隐形幽灵，当他被敌人惊醒后便会显形并发动攻击！解决了眼前的敌人后，他会再次隐身继续呼呼大睡......",
+    "id": 26000050
+  },
+  {
+    "key": "ram-rider",
+    "name": "蛮羊骑士",
+    "elixir": 5,
+    "type": "Troop",
+    "rarity": "Legendary",
+    "arena": 10,
+    "description": "竞技场上，一人一羊，缚敌推塔，势不可挡，还有......青草真香？！",
+    "id": 26000051
+  },
+  {
+    "key": "zappies",
+    "name": "电击车小队",
+    "elixir": 4,
+    "type": "Troop",
+    "rarity": "Rare",
+    "arena": 11,
+    "description": "竞技场上的微型电击车。究竟是谁在操控它们......？恐怕只有建筑大师知道。",
+    "id": 26000052
+  },
+  {
+    "key": "rascals",
+    "name": "绿林团伙",
+    "elixir": 5,
+    "type": "Troop",
+    "rarity": "Common",
+    "arena": 9,
+    "description":
+      "召唤调皮捣蛋的绿林团伙！绿林小哥带头挺进，绿林小妹则在后方拿弹弓痛击敌人，弹弓子弹用的可是大名鼎鼎的淘淘泡泡糖！",
+    "id": 26000053
+  },
+  {
+    "key": "cannon-cart",
+    "name": "加农炮战车",
+    "elixir": 5,
+    "type": "Troop",
+    "rarity": "Epic",
+    "arena": 10,
+    "description": "带轮子的加农炮？敌军肯定没料到！一旦护盾被击破，它就会变成一个不带轮子的加农炮。",
+    "id": 26000054
+  },
+  {
+    "key": "mega-knight",
+    "name": "超级骑士",
+    "elixir": 7,
+    "type": "Troop",
+    "rarity": "Legendary",
+    "arena": 7,
+    "description": "他登场时伴随着\"千髯之力\"，之后他会跃向敌军发动攻击，跃击能造成巨量范围伤害。最好离他远点！",
+    "id": 26000055
+  },
+  {
+    "key": "skeleton-barrel",
+    "name": "骷髅气球",
+    "elixir": 3,
+    "type": "Troop",
+    "rarity": "Common",
+    "arena": 6,
+    "description": "在它的气球爆炸之前，这就是一场空中骷髅派对......之后则会变成一场地面骷髅派对！",
+    "id": 26000056
+  },
+  {
+    "key": "flying-machine",
+    "name": "飞行器",
+    "elixir": 4,
+    "type": "Troop",
+    "rarity": "Rare",
+    "arena": 6,
+    "description": "竞技场上迎来了建筑大师的首个新发明！这是一个很有意思的高速飞行器，不过不太牢靠！",
+    "id": 26000057
+  },
+  {
+    "key": "wall-breakers",
+    "name": "攻城炸弹人",
+    "elixir": 3,
+    "type": "Troop",
+    "rarity": "Epic",
+    "arena": 0,
+    "description":
+      "这两个炸弹人举着炸药桶，在竞技场上视死如归。只有轰塌一座座建筑才能让炸弹人那颗冰冷的心得到些许温暖。",
+    "id": 26000058
+  },
+  {
+    "key": "royal-hogs",
+    "name": "皇家野猪",
+    "elixir": 5,
+    "type": "Troop",
+    "rarity": "Rare",
+    "arena": 10,
+    "description": "国王的爱宠跑出来啦，它们最爱啃苹果和皇家塔！到底是谁把这些皇家野猪放出来的？！",
+    "id": 26000059
+  },
+  {
+    "key": "goblin-giant",
+    "name": "哥布林巨人",
+    "elixir": 6,
+    "type": "Troop",
+    "rarity": "Epic",
+    "arena": 9,
+    "description":
+      "哥布林巨人总是很欢乐，他魁梧的身躯会坚定地朝着敌方建筑迈进。他无论走到哪里都背着两名哥布林投矛手。这个组合看似奇怪，但他们的实力不容小觑！",
+    "id": 26000060
+  },
+  {
+    "key": "magic-archer",
+    "name": "神箭游侠",
+    "elixir": 4,
+    "type": "Troop",
+    "rarity": "Legendary",
+    "arena": 5,
+    "description":
+      "说他是法师或是弓箭手未免有点太小瞧他了！他射出的神箭穿透性极强，可对飞行路径上的所有敌人造成伤害。这可不是街头魔术，这是他的魔法神箭！",
+    "id": 26000062
+  },
+  {
+    "key": "electro-dragon",
+    "name": "雷电飞龙",
+    "elixir": 5,
+    "type": "Troop",
+    "rarity": "Epic",
+    "arena": 11,
+    "description": "雷电飞龙喷出的雷电每次最多可攻击到3个目标。和所有排行老二的孩子一样，它也是个渴望关爱的宝宝。",
+    "id": 26000063
+  },
+  {
+    "key": "cannon",
+    "name": "加农炮",
+    "elixir": 3,
+    "type": "Building",
+    "rarity": "Common",
+    "arena": 3,
+    "description": "防御建筑，发射致命的炮弹，但无法攻击飞行单位。",
+    "id": 27000000
+  },
+  {
+    "key": "goblin-hut",
+    "name": "哥布林小屋",
+    "elixir": 5,
+    "type": "Building",
+    "rarity": "Rare",
+    "arena": 1,
+    "description": "这座小屋能放出哥布林投矛手。千万别往里瞧，相信我，你不会想知道他们是如何训练出来的。",
+    "id": 27000001
+  },
+  {
+    "key": "mortar",
+    "name": "迫击炮",
+    "elixir": 4,
+    "type": "Building",
+    "rarity": "Common",
+    "arena": 6,
+    "description": "射程极远的防御建筑，能发射巨石并造成范围伤害，无法攻击靠得太近的目标！",
+    "id": 27000002
+  },
+  {
+    "key": "inferno-tower",
+    "name": "地狱之塔",
+    "elixir": 5,
+    "type": "Building",
+    "rarity": "Rare",
+    "arena": 4,
+    "description": "防御建筑，对目标造成的火焰伤害会随着时间而递增。再大再强悍的敌人到了它面前都会灰飞烟灭！",
+    "id": 27000003
+  },
+  {
+    "key": "bomb-tower",
+    "name": "炸弹塔",
+    "elixir": 4,
+    "type": "Building",
+    "rarity": "Rare",
+    "arena": 10,
+    "description": "防御建筑，它里面住着一个炸弹兵，会对任何蠢到接近它的笨蛋造成范围伤害。",
+    "id": 27000004
+  },
+  {
+    "key": "barbarian-hut",
+    "name": "野蛮人小屋",
+    "elixir": 7,
+    "type": "Building",
+    "rarity": "Rare",
+    "arena": 3,
+    "description": "这座小屋每隔一会儿就会放出野蛮人攻击敌军。野蛮人出征！",
+    "id": 27000005
+  },
+  {
+    "key": "tesla",
+    "name": "特斯拉电磁塔",
+    "elixir": 4,
+    "type": "Building",
+    "rarity": "Common",
+    "arena": 11,
+    "description": "防御建筑。不用电击敌军的时候，拥有雷电之力的特斯拉电磁塔还是藏在地底会比较安全。",
+    "id": 27000006
+  },
+  {
+    "key": "elixir-collector",
+    "name": "圣水收集器",
+    "elixir": 6,
+    "type": "Building",
+    "rarity": "Rare",
+    "arena": 8,
+    "description": "钱生钱，圣水生圣水。圣水收集器在场上总共可以产出8圣水，不会出现在初始卡牌中。",
+    "id": 27000007
+  },
+  {
+    "key": "x-bow",
+    "name": "X连弩",
+    "elixir": 6,
+    "type": "Building",
+    "rarity": "Epic",
+    "arena": 6,
+    "description": "你的皇家塔不错啊，但这把X连弩在竞技场这边就能把它射成筛子，真是遗憾呢......",
+    "id": 27000008
+  },
+  {
+    "key": "tombstone",
+    "name": "骷髅墓碑",
+    "elixir": 3,
+    "type": "Building",
+    "rarity": "Rare",
+    "arena": 2,
+    "description": "军队建筑，每隔一会儿放出骷髅兵攻击敌军。被摧毁后会产生3个骷髅兵。有点小恐怖哦！",
+    "id": 27000009
+  },
+  {
+    "key": "furnace",
+    "name": "烈焰熔炉",
+    "elixir": 4,
+    "type": "Building",
+    "rarity": "Rare",
+    "arena": 5,
+    "description": "烈焰熔炉每次能产出2个烈焰精灵。不仅如此，用它烤出来的煎饼也很美味。",
+    "id": 27000010
+  },
+  {
+    "key": "fireball",
+    "name": "火球",
+    "elixir": 4,
+    "type": "Spell",
+    "rarity": "Rare",
+    "arena": 0,
+    "description": "啊啊啊啊...火球出击。它能焚烧小片区域并造成大量伤害。对皇家塔的伤害会大打折扣。",
+    "id": 28000000
+  },
+  {
+    "key": "arrows",
+    "name": "万箭齐发",
+    "elixir": 3,
+    "type": "Spell",
+    "rarity": "Common",
+    "arena": 0,
+    "description": "万箭齐发可以覆盖大片区域并对该区域内的所有敌军造成伤害。对皇家塔的伤害会大打折扣。",
+    "id": 28000001
+  },
+  {
+    "key": "rage",
+    "name": "狂暴法术",
+    "elixir": 2,
+    "type": "Spell",
+    "rarity": "Epic",
+    "arena": 10,
+    "description": "提高军队的移动速度和攻击速度，还可以让建筑的攻击速度和出兵速度加快。冲锋吧！",
+    "id": 28000002
+  },
+  {
+    "key": "rocket",
+    "name": "火箭",
+    "elixir": 6,
+    "type": "Spell",
+    "rarity": "Rare",
+    "arena": 6,
+    "description": "在小范围内造成大量伤害，效果看上去很过瘾。对皇家塔的伤害会大打折扣。",
+    "id": 28000003
+  },
+  {
+    "key": "goblin-barrel",
+    "name": "哥布林飞桶",
+    "elixir": 3,
+    "type": "Spell",
+    "rarity": "Epic",
+    "arena": 1,
+    "description": "可在竞技场任意地点释放三个哥布林。小伙子们，这会是趟惊险的旅程！",
+    "id": 28000004
+  },
+  {
+    "key": "freeze",
+    "name": "冰冻法术",
+    "elixir": 4,
+    "type": "Spell",
+    "rarity": "Epic",
+    "arena": 8,
+    "description": "冻结军队和建筑，使其无法移动或攻击，还能对其造成伤害。瞧，敌人已经瑟瑟发抖了！",
+    "id": 28000005
+  },
+  {
+    "key": "mirror",
+    "name": "镜像法术",
+    "elixir": 1,
+    "type": "Spell",
+    "rarity": "Epic",
+    "arena": 12,
+    "description": "复制您用的上一张牌，圣水花费在原卡牌的基础上+1。不会出现在初始卡牌中。",
+    "id": 28000006
+  },
+  {
+    "key": "lightning",
+    "name": "雷电法术",
+    "elixir": 6,
+    "type": "Spell",
+    "rarity": "Epic",
+    "arena": 4,
+    "description":
+      "雷电法术最多可伤害和短暂眩晕目标区域内三个当前生命值最高的敌方军队或建筑。对皇家塔的伤害会大打折扣。",
+    "id": 28000007
+  },
+  {
+    "key": "zap",
+    "name": "电击法术",
+    "elixir": 2,
+    "type": "Spell",
+    "rarity": "Common",
+    "arena": 4,
+    "description": "电击法术可以对目标单位造成瞬间眩晕效果，并在小范围内造成伤害。对皇家塔的伤害会大打折扣。",
+    "id": 28000008
+  },
+  {
+    "key": "poison",
+    "name": "毒药法术",
+    "elixir": 4,
+    "type": "Spell",
+    "rarity": "Epic",
+    "arena": 5,
+    "description":
+      "用致命的毒素覆盖目标区域，并对区域内的军队和建筑造成持续性伤害。但为什么毒药法术作用过的草地依然生机勃勃绿意盎然呢？猜猜看吧。",
+    "id": 28000009
+  },
+  {
+    "key": "graveyard",
+    "name": "骷髅召唤",
+    "elixir": 5,
+    "type": "Spell",
+    "rarity": "Legendary",
+    "arena": 12,
+    "description": "没想到吧！这是一场派对，一场可以在竞技场中任意地点举办的骷髅派对，哇哦！",
+    "id": 28000010
+  },
+  {
+    "key": "the-log",
+    "name": "复仇滚木",
+    "elixir": 2,
+    "type": "Spell",
+    "rarity": "Legendary",
+    "arena": 6,
+    "description":
+      "不小心洒出的狂暴药水将这根无辜的圆木变成了\"复仇滚木\"。现在，它一心复仇，任何挡住它去路的东西都会被它无情碾压！",
+    "id": 28000011
+  },
+  {
+    "key": "tornado",
+    "name": "飓风法术",
+    "elixir": 3,
+    "type": "Spell",
+    "rarity": "Epic",
+    "arena": 5,
+    "description":
+      "飓风法术就像个不断旋转产生飓风旋涡的巨型磁铁，会将目标区域内的敌军卷至飓风中心，并对其中的敌军造成持续性伤害。飓风法术对建筑无效。",
+    "id": 28000012
+  },
+  {
+    "key": "clone",
+    "name": "克隆法术",
+    "elixir": 3,
+    "type": "Spell",
+    "rarity": "Epic",
+    "arena": 11,
+    "description":
+      "克隆目标区域内的我方军队。克隆出的军队非常脆弱，但其伤害输出和同等级的本体一致！克隆法术对建筑无效。",
+    "id": 28000013
+  },
+  {
+    "key": "earthquake",
+    "name": "地震法术",
+    "elixir": 3,
+    "type": "Spell",
+    "rarity": "Rare",
+    "arena": 9,
+    "description":
+      "地震法术可对目标区域内的军队和皇家塔造成多次伤害，对敌方部署的建筑更可造成大量伤害！对飞行单位无效，毕竟它叫\"地\"震法术。",
+    "id": 28000014
+  },
+  {
+    "key": "barbarian-barrel",
+    "name": "野蛮人滚桶",
+    "elixir": 2,
+    "type": "Spell",
+    "rarity": "Epic",
+    "arena": 3,
+    "description": "它会向前滚动，对路径上的所有目标造成伤害。滚桶碎裂后会蹦出来一个野蛮人！他到底是怎么钻进去的？！",
+    "id": 28000015
+  },
+  {
+    "key": "heal",
+    "name": "治疗法术",
+    "elixir": 1,
+    "type": "Spell",
+    "rarity": "Rare",
+    "arena": 7,
+    "description":
+      "治疗您的军队，让他们能够在战场上持续作战！治疗法术作用期间，目标区域内的友方军队会持续回复生命值。治疗法术对建筑无效！",
+    "id": 28000016
+  },
+  {
+    "key": "giant-snowball",
+    "name": "大雪球",
+    "elixir": 2,
+    "type": "Spell",
+    "rarity": "Common",
+    "arena": 8,
+    "description": "大雪球从天而降！它从冰封之巅滚落，无人可挡。大雪球会对敌军造成击退和减速效果。",
+    "id": 28000017
+  },
+  {
+    "key": "goblin-cage",
+    "name": "Goblin Cage",
+    "elixir": 4,
+    "type": "Building",
+    "rarity": "Rare",
+    "arena": 12,
+    "description":
+      "When the Goblin Cage is destroyed, a Goblin Brawler is unleashed into the Arena! Goblin Brawler never skips leg day.",
+    "id": 27000012
+  },
+  {
+    "key": "fisherman",
+    "name": "渔夫",
+    "elixir": 4,
+    "type": "Troop",
+    "rarity": "Legendary",
+    "arena": 10,
+    "id": 26000061
+  }
+]

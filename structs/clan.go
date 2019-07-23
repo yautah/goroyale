@@ -11,6 +11,7 @@ type Clan struct {
 	BadgeId           int          `json:"badgeId"`
 	Type              string       `json:"type"`
 	ClanScore         int          `json:"clanScore"`
+	ClanWarTrophies   int          `json:"clanWarTrophies"`
 	RequiredTrophies  int          `json:"requiredTrophies"`
 	DonationsPerWeek  int          `json:"donationsPerWeek"`
 	ClanChestLevel    int          `json:"clanChestLevel"`
@@ -68,11 +69,12 @@ type WarLog struct {
 }
 
 type WarParticipant struct {
-	Tag           string `json:"tag"`
-	Name          string `json:"name"`
-	CardsEarned   int    `json:"cardsEarned"`
-	BattlesPlayed int    `json:"battlesPlayed"`
-	Wins          int    `json:"wins"`
+	Tag                        string `json:"tag"`
+	Name                       string `json:"name"`
+	CardsEarned                int    `json:"cardsEarned"`
+	BattlesPlayed              int    `json:"battlesPlayed"`
+	Wins                       int    `json:"wins"`
+	CollectionDayBattlesPlayed int    `json:"collectionDayBattlesPlayed"`
 }
 
 type WarStanding struct {

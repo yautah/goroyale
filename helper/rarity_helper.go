@@ -1,37 +1,11 @@
 package helper
 
 import (
-	"encoding/json"
-	"fmt"
-	. "github.com/yautah/goroyale/assets"
+	// "fmt"
 	data "github.com/yautah/goroyale/structs/json"
 )
 
-const (
-	TOTAL_CARD_GOLD = 16144400
-)
-
 var raritiesMap map[string]data.Rarity = make(map[string]data.Rarity)
-
-func init() {
-	var rarities []data.Rarity
-
-	data, err := Asset("assets/rarities.json")
-	if err != nil {
-		return
-	}
-
-	//读取的数据为json格式，需要进行解码
-	err = json.Unmarshal(data, &rarities)
-	if err != nil {
-		fmt.Println(err)
-		return
-	}
-
-	for _, rarity := range rarities {
-		raritiesMap[rarity.Name] = rarity
-	}
-}
 
 func GetRarityByName(name string) data.Rarity {
 	return raritiesMap[name]
