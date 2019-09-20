@@ -62,7 +62,6 @@ func (c *Client) get(path string, params url.Values) (bytes []byte, err error) {
 	bytes, err = ioutil.ReadAll(resp.Body)
 
 	if resp.StatusCode != 200 {
-		fmt.Println(resp.StatusCode)
 		var apiErr APIError
 		json.Unmarshal(bytes, &apiErr)
 		apiErr.StatusCode = resp.StatusCode

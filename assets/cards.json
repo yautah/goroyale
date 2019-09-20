@@ -960,7 +960,7 @@
   {
     "key": "fisherman",
     "name": "渔夫",
-    "elixir": 4,
+    "elixir": 3,
     "type": "Troop",
     "rarity": "Legendary",
     "arena": 10,
