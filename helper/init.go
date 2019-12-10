@@ -8,6 +8,12 @@ import (
 	data "github.com/yautah/goroyale/structs/json"
 )
 
+var jsons = "assets/cards.json"
+
+var CardsIdMap = make(map[int]CardModel.Card)
+var CardsNameMap = make(map[string]CardModel.Card)
+var TOTAL_CARD_GOLD int
+
 func init() {
 	var rarities []data.Rarity
 

@@ -2,7 +2,7 @@ package structs
 
 import (
 	"encoding/json"
-	"fmt"
+	// "fmt"
 	"github.com/yautah/goroyale/helper"
 )
 
@@ -25,6 +25,7 @@ type Card struct {
 	CanUpgradeTo int    `json:"canUpgradeTo"`
 	Rarity       string `json:"rarity"`
 	IconUrl      string `json:"iconUrl"`
+	IconGoldUrl  string `json:"iconGoldUrl"`
 }
 
 func (u *Card) UnmarshalJSON(data []byte) error {
@@ -61,7 +62,8 @@ func (u *Card) UnmarshalJSON(data []byte) error {
 	u.Rarity = c.Rarity
 	u.OLevel = ori.Level
 	u.OMaxLevel = ori.MaxLevel
-	u.IconUrl = fmt.Sprintf("%s/cards/%s.png", Endpoint, c.Key)
+	u.IconUrl = c.IconUrl
+	u.IconGoldUrl = c.IconGoldUrl
 	u.Key = c.Key
 	// u.MaxLevel = 13
 
