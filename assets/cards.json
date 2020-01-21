@@ -1342,6 +1342,20 @@
         "description":"大雪球从天而降！它从冰封之巅滚落，无人可挡。大雪球会对敌军造成击退和减速效果。",
         "icon_url":"https://ae01.alicdn.com/kf/H5054a411a9414ccabbf52c98d64f5c22R.png",
         "icon_gold_url":"https://ae01.alicdn.com/kf/H77d4a0e9ec104e66a6f8a38e63d83386C.png"
+    },
+    {
+        "id":26000064,
+        "key":"firecracker",
+        "code":"3a",
+        "name_en":"FireCracker",
+        "name":"火箭炮手",
+        "elixir":3,
+        "type":"Troop",
+        "rarity":"Common",
+        "arena":10,
+        "description":"大雪球从天而降！它从冰封之巅滚落，无人可挡。大雪球会对敌军造成击退和减速效果。",
+        "icon_url":"https://pic.superbed.cn/item/5e14529676085c32894151d6.png",
+        "icon_gold_url":"https://pic.superbed.cn/item/5e14529676085c32894151da.png"
     }
 ]
 
