@@ -4,8 +4,9 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"io/ioutil"
-	"net/http"
+	"github.com/go-resty/resty/v2"
+	// "io/ioutil"
+	// "net/http"
 	"net/url"
 	"time"
 )
@@ -17,7 +18,7 @@ const token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtY
 type Client struct {
 	Token string
 
-	client http.Client
+	client *resty.Client
 	// using empty struct because it has a byte size of 0
 	// i don't care what's in the channel, just that something is
 }
@@ -25,48 +26,77 @@ type Client struct {
 // New creates a new RoyaleAPI client.
 func New(token string, timeout time.Duration) (c *Client, err error) {
 	c = &Client{
-		client: http.Client{Timeout: 15 * time.Second},
+		client: resty.New(),
 	}
 	if token == "" {
 		err = errors.New("client requires token for authorization with the API")
 		return
 	}
 	c.Token = token
-	if timeout != 0 {
-		c.client = http.Client{Timeout: timeout}
-	}
 
-	// Allow initial request
+	if timeout != 0 {
+		c.client.SetTimeout(timeout * time.Second)
+	}
+	c.client.SetTimeout(30 * time.Second)
+	// c.client.SetDebug(true)
+
 	return
 }
 
 func (c *Client) get(path string, params url.Values) (bytes []byte, err error) {
-	// take one request out of the rateBucket
 
 	path = baseURL + path
-	req, err := http.NewRequest("GET", path, nil)
-	if err != nil {
-		fmt.Println("err1", err)
-		return
-	}
-	req.Header.Add("authorization", fmt.Sprintf("Bearer %s", c.Token))
-	req.URL.RawQuery = params.Encode()
 
-	resp, err := c.client.Do(req)
+	c.client.SetHeader("authorization", fmt.Sprintf("Bearer %s", c.Token))
+	c.client.R().SetQueryString(params.Encode())
+
+	// req.URL.RawQuery = params.Encode()
+
+	resp, err := c.client.R().Get(path)
+
 	if err != nil {
 		fmt.Println("err2", err)
 		return
 	}
-	defer resp.Body.Close()
 
-	bytes, err = ioutil.ReadAll(resp.Body)
+	bytes = resp.Body()
 
-	if resp.StatusCode != 200 {
+	if resp.StatusCode() != 200 {
 		var apiErr APIError
 		json.Unmarshal(bytes, &apiErr)
-		apiErr.StatusCode = resp.StatusCode
+		apiErr.StatusCode = resp.StatusCode()
 		return []byte{}, apiErr
 	}
 
 	return
 }
+
+// func (c *Client) get1(path string, params url.Values) (bytes []byte, err error) {
+
+// path = baseURL + path
+// req, err := http.NewRequest("GET", path, nil)
+// if err != nil {
+// fmt.Println("err1", err)
+// return
+// }
+// req.Header.Add("authorization", fmt.Sprintf("Bearer %s", c.Token))
+// req.URL.RawQuery = params.Encode()
+
+// resp, err := c.client.Do(req)
+// if err != nil {
+// fmt.Println("err2", err)
+// return
+// }
+// defer resp.Body.Close()
+
+// bytes, err = ioutil.ReadAll(resp.Body)
+
+// if resp.StatusCode != 200 {
+// var apiErr APIError
+// json.Unmarshal(bytes, &apiErr)
+// apiErr.StatusCode = resp.StatusCode
+// return []byte{}, apiErr
+// }
+
+// return
+// }

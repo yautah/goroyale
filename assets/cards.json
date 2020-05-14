@@ -187,7 +187,7 @@
         "code":"03",
         "name_en":"Bomber",
         "name":"炸弹兵",
-        "elixir":2,
+        "elixir":3,
         "type":"Troop",
         "rarity":"Common",
         "arena":2,
@@ -1303,17 +1303,17 @@
     },
     {
         "id":28000016,
-        "key":"heal",
+        "key":"heal-spirit",
         "code":"0l",
-        "name_en":"Heal",
-        "name":"治疗法术",
-        "elixir":3,
-        "type":"Spell",
+        "name_en":"Heal Spirit",
+        "name":"治疗精灵",
+        "elixir":1,
+        "type":"Troop",
         "rarity":"Rare",
-        "arena":7,
+        "arena":10,
         "description":"治疗您的军队，让他们能够在战场上持续作战！治疗法术作用期间，目标区域内的友方军队会持续回复生命值。治疗法术对建筑无效！",
-        "icon_url":"https://ae01.alicdn.com/kf/HTB1bn5oboLrK1Rjy0Fj762YXFXa6.png",
-        "icon_gold_url":"https://ae01.alicdn.com/kf/HTB1.z5dbcfrK1RkSmLy760GApXaO.png"
+        "icon_url":"https://pic.imgdb.cn/item/5e8bfeeb504f4bcb04cd6870.png",
+        "icon_gold_url":"https://pic.imgdb.cn/item/5e8bfeeb504f4bcb04cd686c.png"
     },
     {
         "id":28000017,
@@ -1356,6 +1356,20 @@
         "description":"大雪球从天而降！它从冰封之巅滚落，无人可挡。大雪球会对敌军造成击退和减速效果。",
         "icon_url":"https://pic.superbed.cn/item/5e14529676085c32894151d6.png",
         "icon_gold_url":"https://pic.superbed.cn/item/5e14529676085c32894151da.png"
+    },
+    {
+        "id": 28000018,
+        "key": "royal-delivery",
+        "code": "2e",
+        "name_en": "Royal Delivery",
+        "name":"皇室快递",
+        "elixir": 3,
+        "type": "Spell",
+        "rarity": "Common",
+        "arena": 12,
+        "description": "No need to sign for this package! Dropped from the sky, it damages and knocks back enemy Troops before delivering a Royal Recruit. The empty box is also handy for espionage.",
+        "icon_url":"https://pic.imgdb.cn/item/5e5fbb4798271cb2b8310d3d.png",
+        "icon_gold_url":"https://pic.imgdb.cn/item/5e5fbb4798271cb2b8310d38.png"
     }
 ]
 
