@@ -1356,6 +1356,21 @@
         "description":"大雪球从天而降！它从冰封之巅滚落，无人可挡。大雪球会对敌军造成击退和减速效果。",
         "icon_url":"https://pic.superbed.cn/item/5e14529676085c32894151d6.png",
         "icon_gold_url":"https://pic.superbed.cn/item/5e14529676085c32894151da.png"
+    },
+
+    {
+        "id":28000018,
+        "key":"royal-delivery",
+        "code":"2e",
+        "name_en":"Royal Delivery",
+        "name":"皇家速递",
+        "elixir":3,
+        "type":"Spell",
+        "rarity":"Common",
+        "arena":12,
+        "description":"",
+        "icon_url":"https://pic.imgdb.cn/item/5e5fbb4798271cb2b8310d3d.png",
+        "icon_gold_url":"https://pic.imgdb.cn/item/5e5fbb4798271cb2b8310d38.png"
     }
 ]
 
