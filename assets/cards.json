@@ -1370,6 +1370,21 @@
         "description": "No need to sign for this package! Dropped from the sky, it damages and knocks back enemy Troops before delivering a Royal Recruit. The empty box is also handy for espionage.",
         "icon_url":"https://pic.imgdb.cn/item/5e5fbb4798271cb2b8310d3d.png",
         "icon_gold_url":"https://pic.imgdb.cn/item/5e5fbb4798271cb2b8310d38.png"
+    },
+    {
+        "id": 26000080,
+        "key": "skeleton-dragons",
+        "name": "骷髅飞龙",
+        "code": "2r",
+        "name_en": "Skeleton Dragons",
+        "sc_key": "SkeletonDragons",
+        "elixir": 4,
+        "type": "Troop",
+        "rarity": "Common",
+        "arena": 12,
+        "description": "This pair of skeletal scorchers deal Area Damage and fly above the Arena. They also play a mean rib cage xylophone duet.",
+        "icon_url":"https://pic.imgdb.cn/item/5e5fbb4798271cb2b8310d3d.png",
+        "icon_gold_url":"https://pic.imgdb.cn/item/5e5fbb4798271cb2b8310d38.png"
     }
 ]
 
