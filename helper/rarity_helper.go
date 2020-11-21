@@ -1,7 +1,7 @@
 package helper
 
 import (
-	// "fmt"
+	"fmt"
 	data "github.com/yautah/goroyale/structs/json"
 )
 
@@ -15,7 +15,16 @@ func GetCardUpgradeCount(rarityName string, currentLevel int) int {
 	if currentLevel == 0 || rarityName == "" {
 		return 0
 	}
-	return GetRarityByName(rarityName).UpgradeMaterialCount[currentLevel-1]
+	r := GetRarityByName(rarityName)
+	c := 0
+
+	defer func() {
+		if err := recover(); err != nil {
+			fmt.Println(err)
+		}
+	}()
+	c = r.UpgradeMaterialCount[currentLevel-1]
+	return c
 }
 
 func GetCardUpgradeGold(rarityName string, currentLevel int) int {

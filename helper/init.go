@@ -64,6 +64,26 @@ func init() {
 }
 
 func init() {
+	var gameModes []data.GameMode
+
+	data, err := Asset("assets/game_modes.json")
+	if err != nil {
+		return
+	}
+
+	//读取的数据为json格式，需要进行解码
+	err = json.Unmarshal(data, &gameModes)
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
+
+	for _, gameMode := range gameModes {
+		GameModeMap[gameMode.ID] = gameMode
+	}
+}
+
+func init() {
 	var cards []CardModel.Card
 	data, err := Asset(jsons)
 	if err != nil {

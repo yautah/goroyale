@@ -29,13 +29,6 @@ type Card struct {
 }
 
 func (u *Card) UnmarshalJSON(data []byte) error {
-	// type Alias Card
-	// aux := &struct {
-	// *Alias
-	// }{
-	// Alias: (*Alias)(u),
-	// }
-
 	ori := &struct {
 		ID        int    `json:"id"`
 		Name      string `json:"name"`
@@ -50,6 +43,7 @@ func (u *Card) UnmarshalJSON(data []byte) error {
 	}
 
 	c := helper.GetCardById(ori.ID)
+	// fmt.Println("oriiiiiiiiiiiiiiii", ori.ID, ori.Name, ori.Level)
 
 	u.ID = c.ID
 	u.Name = c.Name
@@ -66,6 +60,7 @@ func (u *Card) UnmarshalJSON(data []byte) error {
 	u.IconGoldUrl = c.IconGoldUrl
 	u.Key = c.Key
 	// u.MaxLevel = 13
+	// fmt.Println("carddddddddddddddd", u.ID, u.Name, u.Level, u.OLevel)
 
 	u.UpgradeCount = helper.GetCardUpgradeCount(u.Rarity, ori.Level)
 	u.MaxCount = helper.GetCardMaxCount(u.Rarity, ori.Level, ori.Count)

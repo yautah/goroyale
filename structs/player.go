@@ -74,18 +74,14 @@ type UpcomingChestList struct {
 }
 
 type BattleLog struct {
-	Type          string          `json:"type"`
-	BattleTime    string          `json:"battleTime"`
-	Arena         Arena           `json:"arena"`
-	GameMode      GameMode        `json:"gameMode"`
-	DeckSelection string          `json:"deckSelection"`
-	Team          []BattleLogTeam `json:"team"`
-	Opponent      []BattleLogTeam `json:"opponent"`
-}
-
-type GameMode struct {
-	ID   int    `json:"id"`
-	Name string `json:"name"`
+	Type               string          `json:"type"`
+	BattleTime         string          `json:"battleTime"`
+	IsLadderTournament bool            `json:"isLadderTournament"`
+	Arena              Arena           `json:"arena"`
+	GameMode           GameMode        `json:"gameMode"`
+	DeckSelection      string          `json:"deckSelection"`
+	Team               []BattleLogTeam `json:"team"`
+	Opponent           []BattleLogTeam `json:"opponent"`
 }
 
 type BattleLogTeam struct {

@@ -26,6 +26,9 @@ type Clan struct {
 	BattlesPlayed     int          `json:"battlesPlayed"`
 	Wins              int          `json:"wins"`
 	Crowns            int          `json:"crowns"`
+
+	Fame         int `json:"fame"`
+	RepairPoints int `json:"repairPoints"`
 }
 
 type ClanMemberList struct {
@@ -45,6 +48,8 @@ type ClanMember struct {
 	Donations         int    `json:"donations"`
 	DonationsReceived int    `json:"donationsReceived"`
 	ClanChestPoints   int    `json:"clanChestPoints"`
+	Fame              int    `json:"fame"`
+	RepairPoints      int    `json:"repairPoints"`
 }
 
 type CurrentWar struct {
@@ -80,4 +85,40 @@ type WarParticipant struct {
 type WarStanding struct {
 	Clan         Clan `json:"clan"`
 	TrophyChange int  `json:"trophyChange"`
+}
+
+type RiverClan struct {
+	Tag          string       `json:"tag"`
+	Name         string       `json:"name"`
+	BadgeId      int          `json:"badgeId"`
+	ClanScore    int          `json:"clanScore"`
+	Participants []ClanMember `json:"participants"`
+	Fame         int          `json:"fame"`
+	RepairPoints int          `json:"repairPoints"`
+	FinishTime   string       `json:"finishTime"`
+}
+
+type RiverRaceStanding struct {
+	Rank         int       `json:"rank"`
+	TrophyChange int       `json:"trophyChange"`
+	Clan         RiverClan `json:"clan"`
+}
+
+type RiverRace struct {
+	State        string      `json:"state"`
+	Clan         RiverClan   `json:"clan"`
+	Clans        []RiverClan `json:"clans"`
+	SectionIndex int         `json: sectionIndex`
+}
+
+type RiverRaceLog struct {
+	SeasonId     int                 `json:"seasonId"`
+	CreatedDate  string              `json:"createdDate"`
+	SectionIndex int                 `json:"sectionIndex"`
+	Standings    []RiverRaceStanding `json:"standings"`
+}
+
+type RiverRaceLogList struct {
+	Items  []RiverRaceLog `json:"items"`
+	Paging Paging         `json:"paging"`
 }

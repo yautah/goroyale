@@ -87,3 +87,23 @@ func (c *Client) ClanWarLog(tag string, params url.Values) (warlog WarLogList, e
 	}
 	return
 }
+
+// ClanWar returns data about the current clan war.
+func (c *Client) CurrentRiverRace(tag string) (race RiverRace, err error) {
+	var b []byte
+	path := "/clans/%23" + strings.ToUpper(tag) + "/currentriverrace"
+	if b, err = c.get(path, map[string][]string{}); err == nil {
+		err = json.Unmarshal(b, &race)
+	}
+	return
+}
+
+// ClanWarLog returns data about past clan wars.
+func (c *Client) RiverRaceLog(tag string, params url.Values) (warlog RiverRaceLogList, err error) {
+	var b []byte
+	path := "/clans/%23" + strings.ToUpper(tag) + "/riverracelog"
+	if b, err = c.get(path, params); err == nil {
+		err = json.Unmarshal(b, &warlog)
+	}
+	return
+}
