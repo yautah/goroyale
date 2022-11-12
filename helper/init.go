@@ -106,3 +106,19 @@ func init() {
 	TOTAL_CARD_GOLD = gold
 
 }
+
+func init() {
+
+	data, err := Asset("assets/chest_order.json")
+	if err != nil {
+		return
+	}
+
+	//读取的数据为json格式，需要进行解码
+	err = json.Unmarshal(data, &chestOrder)
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
+
+}

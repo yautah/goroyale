@@ -49,7 +49,7 @@ func (u *Card) UnmarshalJSON(data []byte) error {
 	u.Name = c.Name
 	u.Elixir = c.Elixir
 	u.Level = calcLevel(c.Rarity, ori.Level)
-	u.MaxLevel = 13
+	u.MaxLevel = 14
 	u.StarLevel = ori.StarLevel
 	u.Count = ori.Count
 
@@ -79,6 +79,8 @@ func calcLevel(rarity string, level int) int {
 		return level + 5
 	case "Legendary":
 		return level + 8
+	case "Champion":
+		return level + 10
 	}
 	return level
 }
